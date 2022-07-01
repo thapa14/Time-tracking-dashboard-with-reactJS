@@ -1,0 +1,97 @@
+.routine {
+    width: 24rem;
+    height: 23rem;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 1rem;
+ 
+}
+
+.data_card {
+    background-color: var(--darkBlue);
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2rem;
+    z-index: 1;
+}
+.routine_type{
+    /* d-flex justify-content-between align-items-center */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    width: 2rem;
+    cursor: pointer;
+}
+
+.routine_time {
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+.routine_work {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.routine_previous_time {
+    color: var(--desaturatedBlue);
+    font-size: 1.2rem;
+}
+span{
+    color: var(--desaturatedBlue);
+}
+
+/* responsive CSS for mid-screen devices */
+
+@media(max-width: 1024px){
+    .routine {
+        width: 20rem;
+    }
+
+    .routine_work {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .routine_time {
+        font-size: 4rem;
+        font-weight: 300;
+        padding: 0.4rem 0;
+    }
+    
+}
+
+/* responsive CSS for mid-screen devices */
+
+@media(max-width: 875px){
+    .routine {
+        width: 16rem;
+        height: 20rem;
+    }
+
+    .routine_work {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .routine_time {
+        font-size: 3.2rem;
+        font-weight: 300;
+        padding: 0.8rem 0;
+        margin: 0.4rem 0 !important;
+    }
+    .routine_previous_time{
+        margin: 0.4rem 0 !important;
+    }
+}
+
+/* responsive CSS for mobile devices  */
+
+@media(max-width: 525px){
+    
+}

@@ -1,0 +1,29 @@
+@media(max-width: 775px){
+.routine{
+    width: 34rem;
+    height: 15rem;
+}
+.mobile_responsive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.routine_work{
+    font-weight: 400;
+}
+.routine_time{
+    padding: 0;
+    margin: 0;
+    font-size: 2.8rem;
+    }
+
+.routine_previous_time{
+    font-size: 1.4rem;
+}
+}
+
+@media(max-width:350px){
+    .routine{
+        width: 27rem;
+    }
+}

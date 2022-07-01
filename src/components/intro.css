@@ -1,0 +1,95 @@
+.main_card {
+    width: 24rem;
+    height: 48rem;
+    background-color: var(--darkBlue);
+}
+
+.about_div{
+    height: 32rem;
+    background-color: var(--blue);
+    padding: 2rem;
+}
+.logo {
+    width: 8rem;
+    border: 1px solid white;
+}
+.about_div p{
+    font-size: 1.4rem;
+}
+
+.name{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.time_tracking_links{
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+.list {
+    list-style: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+.links{
+    color: var(--desaturatedBlue);
+    text-decoration: none;
+}
+
+.links:hover{
+    color: var(--lightBlue);
+    text-decoration: underline;
+}
+.links:focus{
+    color: var(--lightBlue);
+    text-decoration: underline;
+}
+
+/* global classes */
+.border_radius {
+    border-radius: 1rem;
+}
+
+/* responsive CSS for mid screen devices */
+
+@media(max-width: 1024px){
+    .main_card {
+        width: 21rem;
+        height: 48rem;
+    }
+    .logo {
+        width: 7rem;
+    }
+    .name{
+        font-size: 3.6rem;
+    }
+}
+
+/* responsive CSS for mid screen devices */
+
+@media(max-width: 875px){
+    .main_card {
+        width: 17rem;
+        height: 42rem;
+    }
+    .about_div{
+        height: 28rem;
+    }
+    .logo {
+        width: 6rem;
+        margin-top: 1.6rem 0;
+    }
+    .name{
+        font-size: 3.2rem;
+        padding: 1.6rem 0;
+    }
+    .list{
+        font-size: 1.4rem;
+    }
+}
